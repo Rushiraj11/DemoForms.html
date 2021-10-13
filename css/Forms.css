@@ -2,7 +2,10 @@ body{
     width: 100%;
     max-width: 600px;
     margin: auto;
-    padding: 2em;
+    padding: 0px 10px;
+    border: 3px solid black;
+    
+    
 }
 .headerContainer{
 display: flex;
@@ -11,11 +14,13 @@ align-content: center;
 background-color: tomato;
 font-weight: bold;
 margin-bottom: 20px;
+
 }
 
 label,input,button{
 font-size: 17px;
 line-height: 1.5;
+
 
 }
 
@@ -40,8 +45,18 @@ div{
     align-items: center;
 }
 
-error-output{
+error-output {
     font-size: 12px;
     font-style:italic;
     color: brown;
+}
+
+@media only screen and (max-width:281px) {
+    h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    label {
+        width: 50%
+    }
 }
